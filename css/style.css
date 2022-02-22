@@ -2,9 +2,15 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+h2 {
+  text-transform: uppercase;
+}
 p {
   padding: 0;
   margin: 0;
+}
+.bg-lightgreen {
+  background-color: #1abc9c;
 }
 .row-gap-4 {
   row-gap: 1.5rem;
@@ -32,15 +38,20 @@ header {
 }
 
 /* jumbo-tron */
-#jumbo-tron {
-  background-color: #1abc9c;
-}
 #jumbo-tron img {
   width: 400px;
 }
 
 /************************ main ************************/
-/* about */
-#about {
-  background-color: #1abc9c;
+/* contact */
+.form {
+  padding: 0.5rem 0 8rem;
+}
+
+/************************ footer ************************/
+#general-info {
+  background-color: #3a546d;
+}
+#copyright {
+  background-color: #2c3e50;
 }
