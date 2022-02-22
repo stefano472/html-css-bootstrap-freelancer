@@ -6,6 +6,9 @@ p {
   padding: 0;
   margin: 0;
 }
+.line {
+  height: 4px;
+}
 /************************ header ************************/
 header {
   text-transform: uppercase;
@@ -31,8 +34,4 @@ header {
 }
 #jumbo-tron img {
   width: 400px;
-}
-#jumbo-tron .line {
-  height: 4px;
-  background-color: white;
 }
