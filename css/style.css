@@ -1,0 +1,38 @@
+/************************ utilities ************************/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+/************************ header ************************/
+header {
+  text-transform: uppercase;
+}
+/* top-header */
+#top-header {
+  background-color: #2c3e50;
+}
+#top-header button {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-right: 0.75rem;
+}
+#top-header a {
+  color: white;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+/* jumbo-tron */
+#jumbo-tron {
+  background-color: #1abc9c;
+}
+#jumbo-tron img {
+  width: 400px;
+}
+#jumbo-tron .line {
+  height: 4px;
+  background-color: white;
+}
