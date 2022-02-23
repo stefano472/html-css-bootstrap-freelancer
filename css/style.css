@@ -10,6 +10,12 @@ p {
   padding: 0;
   margin: 0;
 }
+.w-80 {
+  width: 80%;
+}
+.max-w {
+  max-width: 1140px;
+}
 .bg-lightgreen {
   background-color: #1abc9c;
 }
@@ -20,11 +26,12 @@ button {
   transition: 0.3s;
 }
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
   color: inherit;
@@ -49,13 +56,19 @@ header {
 
 /* jumbo-tron */
 #jumbo-tron img {
-  width: 400px;
+  width: 300px;
 }
 
 /************************ main ************************/
 /* contact */
 .form {
   padding: 0.5rem 0 8rem;
+}
+
+/* about */
+#about a:hover {
+  transform: scale(1.05);
+  text-decoration: none;
 }
 
 /************************ footer ************************/
