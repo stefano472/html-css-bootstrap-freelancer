@@ -28,7 +28,7 @@ button {
 button:hover {
   transform: scale(1.05);
 }
-a {
+/* a {
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -36,7 +36,7 @@ a {
 a:hover {
   color: inherit;
   text-decoration: underline;
-}
+} */
 .line {
   height: 4px;
 }
@@ -49,10 +49,10 @@ header {
 #top-header {
   background-color: #2c3e50;
 }
-#top-header button {
+/* #top-header button {
   border: 1px solid white;
   margin-right: 0.75rem;
-}
+} */
 
 /* jumbo-tron */
 #jumbo-tron img {
@@ -61,15 +61,15 @@ header {
 
 /************************ main ************************/
 /* contact */
-.form {
+/* .form {
   padding: 0.5rem 0 8rem;
-}
+} */
 
 /* about */
-#about a:hover {
+/* #about a:hover {
   transform: scale(1.05);
   text-decoration: none;
-}
+} */
 
 /************************ footer ************************/
 #general-info {
@@ -77,6 +77,10 @@ header {
 }
 #general-info a {
   color: #1abc9c;
+  text-decoration: none;
+}
+#general-info a:hover {
+  text-decoration: underline;
 }
 #general-info a.col-auto {
   color: white;
